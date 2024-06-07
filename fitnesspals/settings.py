@@ -33,7 +33,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['8000-abikirkham-fitnesspals-2rjc4cga7rx.ws-eu114.gitpod.io', 'local host', 'fitness-pals-059aeda665b8.herokuapp.com/']
 
-ACCOUNT_EMAIL_VERIFICATION = 'none'
 
 # Application definition
 
