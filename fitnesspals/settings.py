@@ -33,9 +33,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-abikirkham-fitnesspals-2rjc4cga7rx.ws-eu114.gitpod.io', 'local host', 'fitness-pals-059aeda665b8.herokuapp.com/']
-CSRF_TRUSTED_ORIGINS = [
-    'https://8000-abikirkham-fitnesspals-2rjc4cga7rx.ws-eu114.gitpod.io',
-]
+
+CSRF_TRUSTED_ORIGINS = ['https://8000-abikirkham-fitnesspals-2rjc4cga7rx.ws-eu114.gitpod.io']
 
 
 # Application definition
